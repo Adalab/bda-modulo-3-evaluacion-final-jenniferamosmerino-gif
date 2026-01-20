@@ -1,8 +1,7 @@
 # Ejercicio de evaluación final
 ----------------------------------
 ## Los datos
-Los datos, emplazados en la carpeta Readme consisten en dos datasets que, en conjunto, describen el comportamiento de
-los clientes dentro de un programa de lealtad de una aerolínea.
+Los datos, emplazados en la carpeta Readme consisten en dos datasets que, en conjunto, describen el comportamiento de los clientes dentro de un programa de lealtad de una aerolínea.
 
 1. __Customer Flight Analysis.csv__
 >Contiene información sobre la actividad de vuelo de los clientes. 
