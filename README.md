@@ -1,7 +1,7 @@
 # Ejercicio de evaluación final
 ----------------------------------
 ## Los datos
-Los datos, emplazados en la carpeta Readme consisten en dos datasets que, en conjunto, describen el comportamiento de los clientes dentro de un programa de lealtad de una aerolínea.
+Los datos, emplazados en la carpeta __Readme__ consisten en dos datasets que, en conjunto, describen el comportamiento de los clientes dentro de un programa de lealtad de una aerolínea que tras pasar por el proceso de limpieza se unen en uno.
 
 1. __Customer Flight Analysis.csv__
 >Contiene información sobre la actividad de vuelo de los clientes. 
@@ -22,7 +22,6 @@ Se compone de:
 >Proporciona un perfil detallado de los clientes. 
 
 Se compone de:
-
 - _Loyalty Number:_ Identificador único del cliente dentro del programa de lealtad. Este número permite correlacionar la información de este archivo con el archivo de actividad de vuelos
 - _Country:_ País de residencia del cliente.
 - _Province:_ Provincia o estado de residencia del cliente (aplicable a países con divisiones provinciales o estatales, como Canadá).
@@ -40,4 +39,41 @@ Se compone de:
 - _Cancellation Year:_ Año en que el cliente canceló su membresía en el programa de lealtad, si aplica.
 - _Cancellation Month:_ Mes en que el cliente canceló su membresía en el programa de lealtad, si aplica.
 
+3. __total_data.csv__
+
+Se compone de:
+- _Loyalty Number:_ Identificador único del cliente dentro del programa de lealtad. Este número permite correlacionar la    información de este archivo con el archivo de actividad de vuelos.
+- _Province:_ Provincia o estado de residencia del cliente (aplicable a países con divisiones provinciales o estatales, como Canadá).
+- _City:_ Ciudad de residencia del cliente.
+- _Postal Code:_ Código postal del cliente.
+- _Gender:_ Género del cliente (ej. Male para masculino y Female para femenino).
+- _Education:_ Nivel educativo alcanzado por el cliente (ej. Bachelor para licenciatura, College para estudios universitarios o técnicos, etc.).
+- _Salary:_ Ingreso anual estimado del cliente.
+- _Marital Status:_ Estado civil del cliente (ej. Single para soltero, Married para casado, Divorced para divorciado, etc.).
+- _Loyalty Card:_ Tipo de tarjeta de lealtad que posee el cliente. Esto podría indicar distintos niveles o categorías dentro del programa de lealtad.
+- _CLV (Customer Lifetime Value):_ Valor total estimado que el cliente aporta a la empresa durante toda la relación que mantiene con ella.
+- _Enrollment Type:_ Tipo de inscripción del cliente en el programa de lealtad (ej. Standard).
+- _Enrollment Date:_ Fecha en que el cliente se inscribió en el programa de lealtad.
+- _Cancellation Date:_ Fecha en que el cliente canceló su membresía en el programa de lealtad, si aplica.
+- _Date:_ Indica la fecha en la cual se registraron las actividades de vuelo para el cliente.
+- _Flights Booked:_ Número total de vuelos reservados por el cliente en ese mes específico.
+- _Flights with Companions:_ Número de vuelos reservados en los cuales el cliente viajó con acompañantes.
+- _Total Flights:_ El número total de vuelos que el cliente ha realizado, que puede incluir vuelos reservados en meses anteriores.
+- _Distance:_ La distancia total (presumiblemente en millas o kilómetros) que el cliente ha volado durante el mes.
+- _Points Accumulated:_ Puntos acumulados por el cliente en el programa de lealtad durante el mes, con base en la distancia volada u otros factores.
+- _Points Redeemed:_ Puntos que el cliente ha redimido en el mes, posiblemente para obtener beneficios como vuelos gratis, mejoras, etc.
+- _Dollar Cost Points Redeemed:_ El valor en dólares de los puntos que el cliente ha redimido durante el mes.
+
+
 ## Ejercicio
+ 
+El ejercicio se divide en tres fases:
+1. Fase 1: Exploración y limpieza de datos
+Donde se realiza una primera exploración de las bases de datos y se realiza la limpieza de las mismas para poder ser analizadas.
+2. Fase 2: Análisis estadístico y visualización
+Análisis, gráficos y presentación de conclusiones sobre diversas relaciones entre los datos de la database.
+3. Fase 3: Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
+Análisis y conclusiones sobre una pregunta concreta sobre nuestra database.
+
+
+Durante el ejercicio se presentan acotaciones y aclaraciones sobre los pasos dados en las diferentes fases así como criterios de limpieza, eliminación de datos y elecciñon de gráficas así como la pertinente explicación de las conclusiones de cada variable analizada.
